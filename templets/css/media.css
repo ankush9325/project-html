@@ -1,0 +1,155 @@
+/* media query for the templete */
+/* width 1485px */
+@media (max-width:92em)
+{
+    .html
+    {
+        font-size:50%;
+    }
+
+}
+/* for laptop and monitor 1440px */
+@media (max-width:70em)
+{
+    .main
+    {
+        background-color: bisque;
+        display: flex;
+       flex-wrap:nowrap;
+    }
+
+}
+body {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 114rem;
+    margin: auto;
+}
+
+@media only screen and (max-width: 48em) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .navbar h2 {
+        padding-left: 2rem;
+    }
+
+    .header button {
+        margin-left: 0;
+    }
+
+    .flex-box {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .box2 p,
+    .box3 p,
+    .work p {
+        margin-top: 0;
+        word-wrap: break-word;
+        max-height: 6em;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+
+    .navbar h2 {
+        padding-left: 1rem;
+    }
+
+    .header button {
+        margin-left: 0; 
+    }
+
+    .flex-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box2 p,
+    .box3 p,
+    .work p {
+        margin-top: 0;
+        word-wrap: break-word; 
+        max-height: 6em; 
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 536px){
+    .navbar ul li{
+        font-size: 1rem;
+    }
+}
+@media (max-width:71em)
+{
+    .temp 
+    {
+        max-width:114rem ;
+
+    }
+    .header buuton 
+    {
+        margin-left: 40%;
+    }
+}
+@media (max-width:70em)
+{
+    .main 
+    {
+        display:flex;
+        flex-wrap:wrap-reverse;
+    }
+    .container
+    {
+        margin: auto;
+    }
+}
+@media (max-width:55em)
+{
+    .center-text button 
+    {
+        margin-top:10rem;
+    }
+    .center-text p 
+    {
+        max-height:4rem;
+    }
+}
+@media (max-width:48em)
+{
+    .center-text button 
+    {
+        margin-top:0;
+    }
+    .center-text p 
+    {
+        max-height:8rem;
+    }
+    .center-text
+    {
+        padding-left: 4rem;
+        padding-top: 4rem;
+    }
+}
+@media (max-width:58em)
+{
+    .center-text button 
+    {
+        margin-top: 6rem;
+    }
+    .center-text 
+    {
+        padding:2rem;
+    }
+}

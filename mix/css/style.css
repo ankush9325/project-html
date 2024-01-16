@@ -1,0 +1,366 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html
+{
+  margin: 0rem;
+  padding: 0rem;
+  overflow-x: hidden;
+}
+
+.html
+{
+    font-size: 62.5%;
+}
+
+.container
+{
+    max-width: 114rem;
+    margin: auto;
+    background-color: rgb(234, 222, 222);
+}
+.clearfix::after
+{
+    clear: both;
+    height: 0;
+    content: "";
+    display: block;
+}
+
+.navbar
+{
+    background-color: rgb(222, 206, 176);
+   display: flex;
+   justify-content: space-between;
+}
+.navbar h1
+{
+  font-size:3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 1rem;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+}
+.navbar ul li
+{
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin: 1rem;
+    color: #000;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #be6434;
+
+}
+.navbar ul li a:hover
+{
+    color: #000;
+    border-bottom:0.1rem solid #be6434;
+  cursor: pointer;
+}
+
+.topbar
+{
+    background-color: cornsilk;
+    padding:22rem;
+    background-image:linear-gradient(rgba(21,21,33,0.584),rgba(14,20,40,0.74)), url(../images/img1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topbar h2
+{
+    font-size: 2.4rem;
+    color: #be6434;
+    font-family: monospace;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 1rem;
+}
+
+.topbar h1
+{
+    font-size: 3.8rem;
+    font-family: monospace;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 1rem;
+}
+.topbar a
+{
+    color: #be6434;
+    padding: 0.2rem;
+    font-family: monospace;
+   text-align: center;
+   font-size: 1.6rem;
+   text-transform: capitalize;
+}
+.topbar a:hover
+{
+    color: #000;
+}
+
+.main
+{
+    background-color: whitesmoke;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1
+{
+    max-width: 38rem;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+}
+.bx1
+{
+    background-color: peachpuff;
+    padding: 1rem;
+    border-radius: 50%;
+    position:absolute;
+    top:0.2rem;
+    left:13rem;
+}
+.box1 h2
+{
+    font-size: 1.2rem;
+    /* font-family: monospace; */
+    color: #000;
+   text-align: center;
+   text-transform:uppercase;
+   padding: 1rem;
+}
+.box1 h3
+{
+    font-size: 1rem;
+    color: #000;
+    font-family: monospace;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 0.2rem;
+}
+.main-link
+{
+    padding: 2rem
+}
+.main-link h1
+{
+    font-size: 2.4rem;
+    color: #000;
+    display: block;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 0.2rem;
+}
+.main-link p
+{
+    font-size: 0.7rem;
+    color: #4d2222;
+    display: block;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 30rem;
+   margin-right: 30rem;
+   text-transform: uppercase;
+   padding: 1rem;
+   padding-bottom: 2rem;
+}
+.main-link a
+{
+    font-size: 1.2rem;
+    color:#000;
+   text-transform: uppercase;
+   padding: 2rem;
+   padding-bottom: 0.1rem;
+   text-decoration: none;
+}
+.main-link a:hover
+{
+    color: #be6434;
+    cursor: pointer;
+    border-bottom: 0.1rem solid #be6434; 
+}
+#ab1
+{
+    margin-left: 26rem;
+}
+
+.grid-box
+{
+    background-color: rgb(236, 238, 240);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 4rem;
+    row-gap: 4rem;
+    
+}
+.gbox1
+{
+    background-color: #b6a4a4;
+    padding: 1rem;
+    
+}
+.gbox1 img
+{
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+    box-shadow: 2rem 2rem 6rem #614545 ,inset -2rem -2rem 6rem #fff;
+}
+.gbox1 img:hover
+{
+    transform: scaleX(-0.9);
+    
+}
+.gbox1 h2
+{
+    font-size: 1.2rem;
+    color: #000;
+    display: block;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 2rem;
+     
+     
+}
+.gbox1 a
+{
+    font-size: 1rem;
+    color: #000;
+    display: block;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 0.2rem;
+}
+.gbox1 a:hover
+{
+  color: #be6434;
+}
+
+.content-box
+{
+    background-color:#a8a8a8;
+    padding: 2rem;
+
+}
+.content-box h1
+{
+    font-size: 1.2rem;
+    color: #000;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 1rem;
+
+}
+.content-box h3
+{
+    font-size: 1.0rem;
+    color: #000;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 1rem;
+}
+
+.content-box p 
+{
+    font-size: 0.9rem;
+    color: #4d2222;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   word-wrap: break-word;
+   text-transform: uppercase;
+   padding: 1rem;
+   margin-left: 20rem;
+   margin-right: 20rem;
+}
+
+.footer
+{
+    background-color: #faf9f9;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot1
+{
+    
+    padding: 1rem;
+}
+.foot1 h2
+{
+    font-size: 1.0rem;
+    color: #000;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 1rem;
+
+}
+.foot1 ul
+{
+    list-style: none;
+}
+.foot1 ul li
+{
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.foot1 ul li a
+{
+    color: grey;
+    text-decoration: none;
+}
+.foot1 ul li a:hover
+{
+    color: #be6434;
+}
+.base
+{
+    background-color:#e0692a;
+    padding: 1rem;
+
+}
+.base h2
+{
+    font-size: 1.0rem;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   text-transform:capitalize;
+   padding: 1rem;
+}
+.base h2 a
+{
+    text-decoration: none;
+}
+.base h2 a:hover
+{
+    color: #faf9f9;
+}

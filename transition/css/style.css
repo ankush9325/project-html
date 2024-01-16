@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: violet;
+}
+.clearfix::after
+{
+    clear:both;
+    height: 0;
+    content: "";
+    display: block;
+}
+.html
+{
+    font-size: 62.5%;
+}
+.container
+{
+    max-width: 92rem;
+    margin: auto;
+    background-color: rgb(212, 66, 8);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rem;
+   
+}
+.box1
+{
+    width: 30rem;
+    height: 20rem;
+    background-color: blue;
+    transition: all 1s ease-in-out;
+}
+.box1:hover
+{
+    background-color: brown;
+    width: 50rem;
+}
+.box2
+{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(183, 255, 0);
+    transition:transform 2s;
+
+}
+.box2:hover
+{
+    background-color: rgb(149, 165, 42);
+    transform: translate(40rem,30rem);
+}
+.box3
+{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(255, 0, 212);
+    transition: width 2s ,transform 2s;
+
+}
+.box3:hover
+{
+    background-color: rgb(165, 132, 42);
+    transform: rotate(180deg);
+    width: 50rem;
+}
+.box4
+{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(0, 213, 255);
+    transition:transform 2s;
+
+}
+.box4:hover
+{
+    background-color: rgb(165, 132, 42);
+    transform: scale(-1.2);
+    width: -3rem;
+}
+.box5
+{
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(0, 255, 72);
+    transition:transform 2s;
+
+}
+.box5:hover
+{
+    background-color: rgb(165, 42, 99);
+    transform:skew(30deg,10deg  )
+    width: -3rem;
+}
+
+.slider
+{
+    background-color:yellowgreen;
+    padding: 2rem;
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+  position: relative;
+}
+.icon1
+{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: aqua;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:absolute;
+    top: 8rem;
+    left: -2rem;
+    transition: transform 1s;
+}
+.icon1:hover
+{
+    transform: scale(1.1);
+}
+.slide  
+{
+    background-color: teal;
+    padding: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+     height: 84vh;
+     max-width: 40%;
+    position: absolute;
+    top: -2rem;
+    left: 5em;
+    transition: transform 1s ease-in-out;
+}
+.slide:hover
+{
+  transform: scaleY(1.1);
+}
+
+.slide img
+{
+    max-width:50%;
+    object-fit: cover;
+    transition: transform 2s;
+
+}
+.slide img:hover
+{
+    transform: scaleX(-1.1);
+}
+.icon2
+{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: aqua;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:absolute;
+    top: 8rem;
+    left: 70rem;
+    transition: transform 1s;
+}
+.icon2:hover
+{
+    transform: scale(1.1);
+}

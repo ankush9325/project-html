@@ -1,0 +1,51 @@
+                     CSS PROPERTIES
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: violet;
+}
+.clearfix::after
+{
+    clear:both;
+    height: 0;
+    content: "";
+    display: block;
+}
+.html
+{
+    font-size: 62.5%;
+} 
+body,html
+{
+    margin:0rem;
+    padding:0rem;
+    overflow-x:hidden;
+}
+
+/* LINEAR GRAIDENT AND BACKGROUND COLOR */
+ 
+background-image:linear-gradient(rgba(21,21,33,0.584),rgba(14,20,40,0.74)), url(../images/resturent.jpg); 
+
+
+/*BOX SHADOW */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+/* CDN LINKS  */
+
+/* BOOTSTRAP CSS LINK  */
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+/* JAVA SCRIPT LINK */
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+/* BOOTSTRAP ICVONS LINK  */
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
